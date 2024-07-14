@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>INSTRUMENTS</ContentType>
+		<Title>MVP-50P</Title>
+		<Manufacturer/>
+		<Creator>Source41</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\sourcelabs-mvp-50p\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\sourcelabs-mvp-50p</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MVP50pDisplay">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Copys\mvp-50p\MVP50pDisplay\</AssetDir>
+			<OutputDir>Copys\mvp-50p\MVP50pDisplay\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
